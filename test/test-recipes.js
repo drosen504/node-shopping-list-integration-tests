@@ -16,7 +16,7 @@ const expect = chai.expect;
 chai.use(chaiHttp);
 
 
-describe('Shopping List', function() {
+describe('Recipes', function() {
 
   // Before our tests run, we activate the server. Our `runServer`
   // function returns a promise, and we return the that promise by
