@@ -1,0 +1,4 @@
+node_modules
+npm-debug.log
+language: node_js
+node_js: node
