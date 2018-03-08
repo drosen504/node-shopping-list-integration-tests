@@ -1,2 +1,11 @@
 language: node_js
 node_js: node
+deploy: 
+  provider: heroku
+  api_key:
+    secure: EptQzBz3MM6yJbAET93OwZcH6ZL8ivPayNgwTkrtdu7LaJ9NCNzb2TzLr/848imxAwEnw+SPLLj0llYpjVMT6w2YfScbdXVvoMhqBCWmQTSFCYKVTpfYxPTWXZ944eNOsHxndAgsdYI3qo4cuBTaRXxbQ9pzXPEgrOlzUSvNj60lPyhcHVhASohYtpHKGK4kWSBNLUzY0aB/WEKnHFx6H3PjhVBn8RMccRxnj8Jou8gRoGvjy0jfzLiQAQJ3OceIjUjJoW3+dCfWH7FxkD7cbhdZCZnITplx1FI74EIXdJb2EuKRqQvI2DYyvx4uIH8IA45nU6VzleTJNRvMaHaLoRMdtxKypNIlD4x35tClWiOw4TvbKBPHv8iP9yNi2ULSM7HilPdFh1RafkcpBIY0fR3d2mmtH1++SAfIAwQZDX8sUpme54ueUPNPNf8+wF6PcI4ERsYHWz+PHCCKVFxqu66A2ylaYGP1VJQFiM72QaXJvJwpOn9NeMwrr1Qvg5O3lBZS0a0PxSVHc60tBeU89j/bEJgDiJIGAUbWMuwnXvdvUBYVvZDD76heqZHPGzgbI6Zc77mVIf882UdgmfbJLdlQKZ/NO/UuWB+I3Q9izphecyU5qsdMBh5ysViPNWZ6Ohc2a87s82MLWOq6oquSwFHxcvIsMghHCOQSJ/vA9HU=
+  app: rocky-ravine-74297
+  on:
+    repo: drosen504/node-shopping-list-integration-tests
+
+    
